@@ -1,0 +1,11 @@
+NAME=Xray_OS
+ID=xray_os
+ID_LIKE=arch
+BUILD_ID=rolling
+ANSI_COLOR="0;36"
+HOME_URL="https://gitlab.com/Xray_OS"
+SUPPORT_URL="https://gitlab.com/Xray_OS/xray_os"
+BUG_REPORT_URL="https://gitlab.com/Xray_OS/xray_os"
+LOGO=xray
+IMAGE_ID=Xray_OS
+IMAGE_VERSION=2023.11.22

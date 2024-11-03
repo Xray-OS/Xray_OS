@@ -1,0 +1,12 @@
+[KFileDialog Settings]
+Recent Files[$e]=DaVinci_Resolve_main_window_always_with_titlebar_and_frame.kwinrule,file:///usr/share/xray-custom-settings/settings-windows-rules/DaVinci_Resolve_main_window_always_with_titlebar_and_frame.kwinrule
+Recent URLs[$e]=file:///usr/share/xray-custom-settings/settings-windows-rules/
+detailViewIconSize=16
+
+[MainWindow]
+1920x1080 screen: XPosition=450
+1920x1080 screen: YPosition=182
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAAA/wAAAK8AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+eDP-1=eDP-1

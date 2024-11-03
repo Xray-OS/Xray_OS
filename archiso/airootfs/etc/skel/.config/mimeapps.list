@@ -1,0 +1,27 @@
+[Added Associations]
+application/x-extension-htm=zen-browser.desktop;
+application/x-extension-html=zen-browser.desktop;
+application/x-extension-shtml=zen-browser.desktop;
+application/x-extension-xht=zen-browser.desktop;
+application/x-extension-xhtml=zen-browser.desktop;
+application/xhtml+xml=zen-browser.desktop;
+audio/mpeg=org.strawberrymusicplayer.strawberry.desktop;
+text/html=vivaldi-stable.desktop;brave-browser.desktop;zen-browser.desktop;
+video/x-matroska=vlc.desktop;
+x-scheme-handler/chrome=zen-browser.desktop;
+x-scheme-handler/http=vivaldi-stable.desktop;brave-browser.desktop;zen-browser.desktop;
+x-scheme-handler/https=vivaldi-stable.desktop;brave-browser.desktop;zen-browser.desktop;
+
+[Default Applications]
+application/x-extension-htm=zen-browser.desktop
+application/x-extension-html=zen-browser.desktop
+application/x-extension-shtml=zen-browser.desktop
+application/x-extension-xht=zen-browser.desktop
+application/x-extension-xhtml=zen-browser.desktop
+application/xhtml+xml=zen-browser.desktop
+audio/mpeg=org.strawberrymusicplayer.strawberry.desktop;
+text/html=zen-browser.desktop
+video/x-matroska=vlc.desktop;
+x-scheme-handler/chrome=zen-browser.desktop
+x-scheme-handler/http=zen-browser.desktop
+x-scheme-handler/https=zen-browser.desktop
