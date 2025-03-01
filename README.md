@@ -19,7 +19,7 @@ Little tweaks like support for things like switcheroo-control, supergfxctl, fstr
 ## Conclusion
 Like I said at the beginning, this is my personal Archlinux instance, that I created for me, for my use, to have my settings, my preferences, my style of how I like to set my distro, I created for myself, so don't expect this to be something different or revolutionary, this is just useful if for some reason you like my settings and theming and instead of doing yourself all of this manually in Archlinux, then you can download this and start using this already pre-configured ISO.
 
-![Desktop 2](https://github.com/Xray-OS/xray_os/assets/143856402/847105ac-5e33-4e80-b2b8-ea10675a0429)
+<img src="https://images2.imgbox.com/93/10/eHj7jhXu_o.png">
 
 <img src="https://images2.imgbox.com/a5/e5/VcjlKerg_o.png">
 
