@@ -1,8 +1,7 @@
 #!/bin/bash
 #set -e
-##################################################################################################################
-# Author	:	Erik Dubois and used by Angel Lopez (Xray_OS)
-##################################################################################################################
+
+################
 #
 #   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
 #
@@ -22,14 +21,14 @@ echo
 	desktop="plasma"
 	dmDesktop="plasma"
 
-	xray_osVersion='v10'
+	Xray_OS_Version='v12'
 
-	isoLabel='xray_os-'$xray_osVersion'-x86_64.iso'
+	isoLabel='Xray_OS-'$Xray_OS_Version'-x86_64.iso'
 
 	# setting of the general parameters
 	archisoRequiredVersion="archiso 79-1"
-	buildFolder=$HOME"/xray_os-build"
-	outFolder=$HOME"/xray_os-Out"
+	buildFolder=$HOME"/Xray_OS-build"
+	outFolder=$HOME"/Xray_OS-out"
 	archisoVersion=$(sudo pacman -Q archiso)
 
 	# If you want to add packages from the chaotics-aur repo then
@@ -37,7 +36,7 @@ echo
 	# that are hosted on chaotics-aur in the packages.x86_64 at the bottom
 
 	chaoticsrepo=false
-	
+
 	# If you are ready to use your personal repo and personal packages
 	# https://arcolinux.com/use-our-knowledge-and-create-your-own-icon-theme-combo-use-github-to-saveguard-your-work/
 	# 1. set variable personalrepo to true in this file (default:false)
@@ -48,7 +47,7 @@ echo
 
 	echo "################################################################## "
 	echo "Building the desktop                   : "$desktop
-	echo "Building version                       : "$xray_osVersion
+	echo "Building version                       : "$Xray_OS_Version
 	echo "Iso label                              : "$isoLabel
 	echo "Do you have the right archiso version? : "$archisoVersion
 	echo "What is the required archiso version?  : "$archisoRequiredVersion
@@ -324,7 +323,7 @@ echo
 	echo "Moving pkglist.x86_64.txt"
 	echo "########################"
 	cp $buildFolder/iso/arch/pkglist.x86_64.txt  $outFolder/$isoLabel".pkglist.txt"
-	
+
 echo
 echo "##################################################################"
 tput setaf 2

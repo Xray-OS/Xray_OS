@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 # shellcheck disable=SC2034
 
-iso_name="xray_os"
-iso_label="xray_os-v10"
-iso_publisher="Xray_OS <https://sourceforge.net/projects/xray-os/>"
+iso_name="Xray_OS"
+iso_label="Xray_OS"
+iso_publisher="XeroArch <https://sourceforge.net/projects/xray-os/>"
 iso_application="Xray_OS Live/Rescue CD"
-iso_version="v10"
+iso_version="v12"
 install_dir="arch"
 buildmodes=('iso')
 bootmodes=('bios.syslinux.mbr' 'bios.syslinux.eltorito'

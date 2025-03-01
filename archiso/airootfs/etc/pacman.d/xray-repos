@@ -1,2 +1,1 @@
-Server = https://gitlab.com/Xray_OS/$repo/-/raw/main/$arch
-
+Server = https://gitlab.com/xray_os-archlinux/$repo/-/raw/main/$arch

@@ -1,7 +1,0 @@
-[Windows]
-Placement=Centered
-
-[org.kde.kdecoration2]
-NoPlugin=false
-library=org.kde.breeze
-theme=Breeze
