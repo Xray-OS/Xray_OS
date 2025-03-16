@@ -1,6 +1,6 @@
- <img src="https://images2.imgbox.com/b1/19/gp7ReKqs_o.png"> 
 
-# Xray_OS 
+
+# Ada (formerly Xray_OS)
 This is my own personal and customized Archlinux instance, that I decided to compile it into a single ISO, this ISO contains all of my personal configs, settings and packages, that I normally use by default in Arch.
 
 Currently is a project just for my personal use, I share it with the public, just in case someone wants to test it for fun, but is not really something that I created to be a competitor or to convince someone of replacing their current OS with mine.
