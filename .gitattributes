@@ -1,1 +1,2 @@
 archiso/airootfs/etc/skel/.local/share/baloo/* filter=lfs diff=lfs merge=lfs -text
+AdaOS/* filter=lfs diff=lfs merge=lfs -text
