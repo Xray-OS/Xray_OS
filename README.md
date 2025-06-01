@@ -14,4 +14,4 @@ Little tweaks like support for things like switcheroo-control, supergfxctl, bett
 ## Conclusion
 Like I said at the beginning, this is my personal Linux OS instance, for sure this can get better than what it currently is if people like it support it, other than that.. is just a matter of time till it dies.
 
-<img src="https://images2.imgbox.com/a5/e5/VcjlKerg_o.png">
+<img src="https://images2.imgbox.com/d9/0f/G7KylBVQ_o.png">
