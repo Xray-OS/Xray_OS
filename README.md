@@ -5,11 +5,6 @@ This is my own personal and customized Arch-based Linux instance nobody asked fo
 
 Currently is a project just for my personal use, I share it with the public, just in case someone wants to test it for fun, but is not really something that I created to be a competitor or to convince someone of replacing their current OS with mine.
 
-# So what is included in the distro?
-
-## Several package-managers
-Just the usual but with a little bit more for the sake to help potential curious users who are not exactly savy-linux-users per say. Things like Discover are included which is also an excellent Graphical User Interface, package manager that can handle mainly Flatpak and also some native Linux packages.
-
 ## NVIDIA-DRIVERS or AMD-DRIVERS
 In case of AMD, almost not to much is needed when it comes to drivers, since the Linux Kernel has a very well known support towards AMD products, though a user still a bit problematic, because some Nvidia pkgs might still get installed even if the user don't really have an Nvidia graphics card, this will be fixed of course. When it comes to NVIDIA-drivers the support is excellent, mostly all essential processes NVIDIA-drivers requires are well supported.
 
