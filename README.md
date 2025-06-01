@@ -5,7 +5,7 @@ Formerly Xray_OS This is my own personal and customized Arch-based Linux instanc
 
 Currently is mostly a project for my personal use, but I share it publicly though.
 
-## NVIDIA-DRIVERS or AMD-DRIVERS
+## Nvidia-Drivers or AMD-Drivers
 In case of AMD, Linux already has native excellent support with AMD cards. When it comes to NVIDIA drivers the support is excellent, mostly all essential processes NVIDIA drivers requires are well implemented also.
 
 ## General Essential Tweaks to improve the experience in Linux
