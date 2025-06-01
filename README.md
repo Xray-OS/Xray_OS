@@ -6,7 +6,7 @@ This is my own personal and customized Arch-based Linux instance nobody asked fo
 Currently is a project just for my personal use, I share it with the public, just in case someone wants to test it for fun.
 
 ## NVIDIA-DRIVERS or AMD-DRIVERS
-In case of AMD, almost not to much is needed when it comes to drivers, since Linuxhas already known support towards AMD products, though a user still a bit problematic, because some Nvidia pkgs might still get installed even if the user don't really have an Nvidia graphics card, this will be fixed of course. When it comes to NVIDIA-drivers the support is excellent, mostly all essential processes NVIDIA-drivers requires are well supported.
+In case of AMD, Linux already has native excellent support with AMD cards. When it comes to NVIDIA-drivers the support is excellent, mostly all essential processes NVIDIA-drivers requires are well supported.
 
 ## General Essential Tweaks to improve the experience in Archlinux
 Little tweaks like support for things like switcheroo-control, supergfxctl, fstrim.timer (better performance for NVME or SSD drives), Bluetooth, Flatpak, KDE-Plasma preconfigured nicely, CHAOTIC-AUR integraded already, all necessary programs, custom-repos that included packages that are normally available in the AUR only, improvementss to the shell and several terminals settings.
