@@ -1,14 +1,14 @@
 
 
 # Ada (formerly Xray_OS)
-This is my own personal and customized Arch-based Linux instance nobody asked for, this ISO contains all of my personal settings and packages, that I normally use by default in Linux.
+Formerly ### Xray_OS ### This is my own personal and customized Arch-based Linux instance nobody asked for, this ISO contains all of my personal settings and packages, that I normally use by default in Linux.
 
 Currently is a project just for my personal use, I share it with the public, just in case someone wants to test it for fun.
 
 ## NVIDIA-DRIVERS or AMD-DRIVERS
 In case of AMD, Linux already has native excellent support with AMD cards. When it comes to NVIDIA-drivers the support is excellent, mostly all essential processes NVIDIA-drivers requires are well supported.
 
-## General Essential Tweaks to improve the experience in Archlinux
+## General Essential Tweaks to improve the experience in Linux
 Little tweaks like support for things like switcheroo-control, supergfxctl, fstrim.timer (better performance for NVME or SSD drives), Bluetooth, Flatpak, KDE-Plasma preconfigured nicely, CHAOTIC-AUR integraded already, all necessary programs, custom-repos that included packages that are normally available in the AUR only, improvementss to the shell and several terminals settings.
 
 ## Conclusion
