@@ -1,12 +1,12 @@
 
 
 # Ada (formerly Xray_OS)
-This is my own personal and customized Arch-based Linux instance nobody asked for, that I decided to compile into a single ISO, this ISO contains all of my personal configs, settings and packages, that I normally use by default in Linux.
+This is my own personal and customized Arch-based Linux instance nobody asked for, this ISO contains all of my personal settings and packages, that I normally use by default in Linux.
 
-Currently is a project just for my personal use, I share it with the public, just in case someone wants to test it for fun, but is not really something that I created to be a competitor or to convince someone of replacing their current OS with mine.
+Currently is a project just for my personal use, I share it with the public, just in case someone wants to test it for fun.
 
 ## NVIDIA-DRIVERS or AMD-DRIVERS
-In case of AMD, almost not to much is needed when it comes to drivers, since the Linux Kernel has a very well known support towards AMD products, though a user still a bit problematic, because some Nvidia pkgs might still get installed even if the user don't really have an Nvidia graphics card, this will be fixed of course. When it comes to NVIDIA-drivers the support is excellent, mostly all essential processes NVIDIA-drivers requires are well supported.
+In case of AMD, almost not to much is needed when it comes to drivers, since Linuxhas already known support towards AMD products, though a user still a bit problematic, because some Nvidia pkgs might still get installed even if the user don't really have an Nvidia graphics card, this will be fixed of course. When it comes to NVIDIA-drivers the support is excellent, mostly all essential processes NVIDIA-drivers requires are well supported.
 
 ## General Essential Tweaks to improve the experience in Archlinux
 Little tweaks like support for things like switcheroo-control, supergfxctl, fstrim.timer (better performance for NVME or SSD drives), Bluetooth, Flatpak, KDE-Plasma preconfigured nicely, CHAOTIC-AUR integraded already, all necessary programs, custom-repos that included packages that are normally available in the AUR only, improvementss to the shell and several terminals settings.
