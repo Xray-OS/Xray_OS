@@ -1,29 +1,110 @@
- <img src="https://images2.imgbox.com/b1/19/gp7ReKqs_o.png"> 
+# Xray_OS Linux Distribution
 
-# Xray_OS 
-This is my own personal and customized Archlinux instance, that I decided to compile it into a single ISO, this ISO contains all of my personal configs, settings and packages, that I normally use by default in Arch.
+![Xray_OS Logo](https://img.shields.io/badge/Xray_OS-Linux-blue?style=for-the-badge)
+![Version](https://img.shields.io/badge/Version-14-green?style=for-the-badge)
+![Arch Based](https://img.shields.io/badge/Based%20on-Arch%20-1793d1?style=for-the-badge)
 
-Currently is a project just for my personal use, I share it with the public, just in case someone wants to test it for fun, but is not really something that I created to be a competitor or to convince someone of replacing their current OS with mine.
+## Overview
 
-# So what is included in the distro?
+**Note: The ISO is currently under brief reconstruction. Xray_OS is back!**
 
-## Several package-managers
-Just the usual but with a little bit more just for the sake to help potential curious users who are not exactly powerusers or savy-linux-users per say. Things like pacmac-all which is a graphical user interface package manager known in the menu launcher as "Add/Remove Software", which by the way can be configured to include several versions of known package formats and sources, like, packages from the AUR, Flatpaks, Snaps and may be others, also Discover is included which is also an excellent GUI (remember: Graphical User Interface), package manager that can handle mainly Flatpaks and also native Archlinux pkgs, this last is thanks to the inclusion of the "packagekit-qt6" which allows Discover to take packages directly from the available Archlinux repos in pacman.conf (except may be the ones from the CHAOTIC-AUR), and last but not least Octopi package manager is also included, which is a GUI pkg-manager but it is less graphical compare to the other 2 named previously.
+Xray_OS is a personal Arch Linux-based distribution created for personal use - it's not intended as a competitor to other distributions. This is a curated system with custom tools and fixes for specific use cases.
 
-## NVIDIA-DRIVERS or AMD-DRIVERS
-In case of AMD, almost not to much is needed when it comes to drivers, since the Linux Kernel has a very well known support towards AMD products, when it comes to NVIDIA-drivers the support is excellent, NVIDIA-KERNEL-MODULES (DKMS modules) are well pre-configured to do all of the necessary processes after every transaction from an update, in case NVIDIA is not being used but rather AMD, then a script will automatically delete all of the NVIDIA-drivers, same if non NVIDIA or AMD drivers are being used, then it will automatically delete all related drivers regarding that. The NVIDIA-drivers that are being used are the current "nvidia-open-dkms" drivers, plus the rest of the necessary NVIDIA-drivers like "lib32-opencl-nvidia" and so on, you can check the pkglist inside the "archiso" folder to see the specific related pkgs.
+👉 Website: [Visit Xray-OS](https://xray-os.github.io/xray_os-website/)
 
-## General Essential Tweaks to improve the experience in Archlinux
-Little tweaks like support for things like switcheroo-control, supergfxctl, fstrim.timer (better performance for NVME or SSD drives), bluetooth, snapd support, almost all the essential pkgs for software-development, a fix for the missing title bar in Davinci Resolve in KDE-Plasma, KDE-Plasma preconfigured nicely, CHAOTIC-AUR integraded already, all necessary programs, custom-repos that included pkgs that are normally not available in the extra-official Archlinus repos, improvementss to the shell and several terminals in their settings, apps and dependencies for gaming, some good wallpapers to have fun with and other things here and there.
+**Important**: From the next version of Tolitica, the Xray_OS branding will become optional.
 
-## Conclusion
-Like I said at the beginning, this is my personal Archlinux instance, that I created for me, for my use, to have my settings, my preferences, my style of how I like to set my distro, I created for myself, so don't expect this to be something different or revolutionary, this is just useful if for some reason you like my settings and theming and instead of doing yourself all of this manually in Archlinux, then you can download this and start using this already pre-configured ISO.
+## Key Features
 
-<img src="https://images2.imgbox.com/93/10/eHj7jhXu_o.png">
+- **🛠️ Custom AUR Helper** - tolito-AUR-helper with curated PKGBUILDs and AUR fallback
+- **📦 Curated Packages** - Fixed and improved PKGBUILDs for broken AUR packages
+- **🎨 Custom Wallpapers** - Original Xray_OS wallpapers (not sourced from elsewhere)
+- **🖥️ Smart GPU Detection** - Automatically detects and removes unused GPU drivers during installation
+- **🎬 DaVinci Resolve Support** - Easy installation via tolito-AUR-helper without errors
+- **📋 Tolitica Welcome App** - Custom welcome application with useful system options
 
-<img src="https://images2.imgbox.com/a5/e5/VcjlKerg_o.png">
+## Unique Features
 
-<img src="https://images2.imgbox.com/91/a3/bmepo64s_o.jpg">
+### tolito-AUR-helper
+- Custom AUR helper that builds and downloads packages on the fly
+- Includes curated PKGBUILDs by the maintainer
+- Fixes broken AUR packages (like DaVinci Resolve installation errors)
+- Automatically falls back to standard AUR if custom package not available
 
+### Tolitica Welcome App
+- Custom welcome application with useful system options
+- Will include optional Xray_OS branding toggle in future versions
+- Provides easy access to system configuration and tools
 
-<img src="https://images2.imgbox.com/79/d9/c0B6V9le_o.png" width="100" height="92">
+### Smart Installation Features
+- **GPU Driver Detection**: Automatically detects your GPU and removes unused drivers
+- **DaVinci Resolve Fix**: Resolves missing title bar issues in DaVinci Resolve
+- **Custom Wallpapers**: Includes original Xray_OS wallpapers
+
+### Important Notes
+- This is a **personal ISO** created for personal use
+- **Not a commercial competitor** to other distributions
+- GPU driver detection feature needs adjustments - use with caution
+- Xray_OS branding will become optional in future Tolitica versions
+
+## System Requirements
+
+### Minimum Requirements
+- **CPU**: x86_64 processor (64-bit)
+- **RAM**: 2 GB minimum, 4 GB recommended
+- **Storage**: 20 GB available disk space
+- **Graphics**: Any graphics card with basic driver support
+
+### Recommended Requirements
+- **CPU**: Multi-core x86_64 processor
+- **RAM**: 8 GB or more
+- **Storage**: 50 GB+ SSD storage
+- **Graphics**: Dedicated graphics card for optimal performance
+
+## Download
+
+**Current Status**: ISO under brief reconstruction
+
+- **Project Page**: [SourceForge](https://sourceforge.net/projects/xray-os/)
+- **Status**: Xray_OS is back and being updated
+- **Next Release**: Will include optional Xray_OS branding via Tolitica
+
+## What Makes This Different
+
+### DaVinci Resolve Made Easy
+Normally, downloading DaVinci Resolve from the AUR gives installation errors. With Xray_OS's tolito-AUR-helper, you can:
+- Download and install DaVinci Resolve easily
+- Get it installed on the fly without errors
+- Access curated PKGBUILDs that fix broken AUR packages
+- Enjoy fixed title bar issues in DaVinci Resolve
+
+### Personal Touch
+- Created as a personal ISO for specific needs
+- Not intended to compete with major distributions
+- Focuses on solving real-world package installation issues
+- Includes original custom wallpapers
+
+## Documentation
+
+- [Installation Guide](docs/INSTALLATION.md)
+- [User Manual](docs/USER_GUIDE.md)
+- [System Configuration](docs/CONFIGURATION.md)
+- [Troubleshooting](docs/TROUBLESHOOTING.md)
+
+## Community & Support
+
+- **Project Page**: [SourceForge](https://sourceforge.net/projects/xray-os/)
+- **Issues**: Report bugs and feature requests on SourceForge
+- **Discussions**: Community forums and discussions
+
+## License
+
+Xray_OS is open source and free to use. Individual components may have their own licenses.
+
+## Contributing
+
+We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
+
+---
+
+*Xray_OS - It’s not a Linux fork. It’s the Linux you never expected*
