@@ -1,4 +1,6 @@
-# Xray_OS Linux Distribution
+# Xray_OS
+
+<img src="https://images2.imgbox.com/12/9e/wqMmWy0F_o.png" alt="Alt text" width="300"/>
 
 ![Xray_OS Logo](https://img.shields.io/badge/Kernel:-Linux-blue?style=for-the-badge)
 ![Version](https://img.shields.io/badge/Version:-15-green?style=for-the-badge)
