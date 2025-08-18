@@ -8,7 +8,7 @@
 
 **Note: The ISO is currently under brief reconstruction. Xray_OS is back!**
 
-Xray_OS is a personal Arch Linux-based distribution created for personal use - it's not intended as a competitor to other distributions. This is a curated system with custom tools and fixes for specific use cases.
+Xray_OS is a personal Arch Linux-based distribution created for personal use - it's not intended as a competitor to other distributions. This is a curated system with custom tools and fixes for several use cases.
 
 👉 Website: [Visit Xray-OS](https://xray-os.github.io/xray_os-website/)
 
