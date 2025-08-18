@@ -25,33 +25,48 @@ Xray_OS is a personal Arch Linux-based distribution created for personal use - i
 
 ## Unique Features
 
+### Arch7z-Installer/Xray-Installer
+- Xray_OS custom installer
+- Custom partitioning option
+- Swap is optional
+- Works on VMs
+- Made with the QT framework
+- Beautiful and elegant UI
+- Minimal
+- BTRFS and EXT4 only
+- UEFI/GPT only
+
 ### tolito-AUR-helper
 - Custom AUR helper that builds and downloads packages on the fly
-- Includes curated PKGBUILDs by the maintainer
-- Fixes broken AUR packages (like DaVinci Resolve installation errors)
-- Automatically falls back to standard AUR if custom package not available
+- Builds curated PKGBUILDs by the maintainer
+- Fixes some broken AUR packages (like DaVinci Resolve installation errors)
+- Automatically falls back to standard AUR if a package is not available
 
 ### Tolitica Welcome App
 - Custom welcome application with useful system options
 - Will include optional Xray_OS branding toggle in future versions
 - Provides easy access to system configuration and tools
+- Option to change your shell
+- Option to enable/disable terminal theming (Fish only)
+- Integraded with Arch7z-Installer and Calamares Installer
 
 ### Smart Installation Features
 - **GPU Driver Detection**: Automatically detects your GPU and removes unused drivers
-- **DaVinci Resolve Fix**: Resolves missing title bar issues in DaVinci Resolve
+- **DaVinci Resolve Fix**: Resolves missing title bar issues in DaVinci Resolve on KDE Plasma
 - **Custom Wallpapers**: Includes original Xray_OS wallpapers
 
 ### Important Notes
 - This is a **personal ISO** created for personal use
 - **Not a commercial competitor** to other distributions
-- GPU driver detection feature needs adjustments - use with caution
-- Xray_OS branding will become optional in future Tolitica versions
+- GPU driver detection feature needs adjustments - have that in mind
+- Xray_OS branding will become optional in future versions of Tolitica
+- Have patient for fixes because this distro is only mantained by literally just one person
 
 ## System Requirements
 
 ### Minimum Requirements
 - **CPU**: x86_64 processor (64-bit)
-- **RAM**: 2 GB minimum, 4 GB recommended
+- **RAM**: 4 GB minimum
 - **Storage**: 20 GB available disk space
 - **Graphics**: Any graphics card with basic driver support
 
@@ -75,21 +90,14 @@ Xray_OS is a personal Arch Linux-based distribution created for personal use - i
 Normally, downloading DaVinci Resolve from the AUR gives installation errors. With Xray_OS's tolito-AUR-helper, you can:
 - Download and install DaVinci Resolve easily
 - Get it installed on the fly without errors
-- Access curated PKGBUILDs that fix broken AUR packages
-- Enjoy fixed title bar issues in DaVinci Resolve
+- Access curated PKGBUILDs that fix some broken AUR packages
+- Fixed title bar issues in DaVinci Resolve
 
 ### Personal Touch
 - Created as a personal ISO for specific needs
 - Not intended to compete with major distributions
-- Focuses on solving real-world package installation issues
+- Focuses on innovation, creation, usability and solving real-world package installation issues
 - Includes original custom wallpapers
-
-## Documentation
-
-- [Installation Guide](docs/INSTALLATION.md)
-- [User Manual](docs/USER_GUIDE.md)
-- [System Configuration](docs/CONFIGURATION.md)
-- [Troubleshooting](docs/TROUBLESHOOTING.md)
 
 ## Community & Support
 
@@ -99,11 +107,11 @@ Normally, downloading DaVinci Resolve from the AUR gives installation errors. Wi
 
 ## License
 
-Xray_OS is open source and free to use. Individual components may have their own licenses.
+Xray_OS is semi open-source but is not LIBRE. Individual components may have their own licenses.
 
 ## Contributing
 
-We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
+We welcome contributions! Please wait for specific details about how we work.. (coming soon)
 
 ---
 
