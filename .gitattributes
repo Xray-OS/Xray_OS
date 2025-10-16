@@ -1,0 +1,2 @@
+xrayoos-live-iso/archiso filter=lfs diff=lfs merge=lfs -text
+xrayoos-live-iso/installation-scripts-by-edu filter=lfs diff=lfs merge=lfs -text

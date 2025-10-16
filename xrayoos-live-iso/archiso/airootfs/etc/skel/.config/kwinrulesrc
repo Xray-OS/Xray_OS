@@ -1,0 +1,10 @@
+[0ef666dc-a67a-4c0e-b778-dfef217d8f23]
+Description=DaVinci Resolve main window always with titlebar and frame
+noborderrule=2
+types=1
+wmclass=resolve
+wmclassmatch=1
+
+[General]
+count=1
+rules=0ef666dc-a67a-4c0e-b778-dfef217d8f23

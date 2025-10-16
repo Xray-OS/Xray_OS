@@ -1,0 +1,48 @@
+[Unit]
+Description=Power Profiles daemon
+Conflicts=tuned.service tlp.service auto-cpufreq.service system76-power.service
+After=multi-user.target display-manager.target
+
+[Service]
+Type=dbus
+BusName=org.freedesktop.UPower.PowerProfiles
+# To enable debugging add a -vv to the ExecStart line
+ExecStart=/usr/lib/power-profiles-daemon
+Restart=on-failure
+# This always corresponds to /var/lib/power-profiles-daemon
+StateDirectory=power-profiles-daemon
+
+# Lockdown
+CapabilityBoundingSet=CAP_SYS_ADMIN
+DevicePolicy=closed
+IPAddressDeny=any
+KeyringMode=private
+LockPersonality=yes
+MemoryDenyWriteExecute=yes
+NoNewPrivileges=yes
+PrivateDevices=yes
+PrivateTmp=yes
+PrivateNetwork=yes
+PrivateUsers=yes
+ProtectClock=yes
+ProtectControlGroups=yes
+ProtectHome=yes
+ProtectHostname=yes
+ProtectKernelLogs=yes
+ProtectKernelModules=yes
+ProtectProc=invisible
+ProtectSystem=strict
+RemoveIPC=yes
+RestrictAddressFamilies=AF_UNIX AF_LOCAL AF_NETLINK
+MemoryDenyWriteExecute=true
+RestrictRealtime=true
+RestrictNamespaces=yes
+RestrictRealtime=yes
+RestrictSUIDSGID=yes
+SystemCallFilter=@system-service
+SystemCallFilter=~@resources @privileged
+SystemCallErrorNumber=EPERM
+SystemCallArchitectures=native
+
+[Install]
+WantedBy=graphical.target

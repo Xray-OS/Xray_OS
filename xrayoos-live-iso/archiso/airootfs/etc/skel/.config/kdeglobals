@@ -1,0 +1,183 @@
+[ColorEffects:Disabled]
+ChangeSelectionColor=
+Color=56,56,56
+ColorAmount=0
+ColorEffect=0
+ContrastAmount=0.65
+ContrastEffect=1
+Enable=
+IntensityAmount=0.1
+IntensityEffect=2
+
+[ColorEffects:Inactive]
+ChangeSelectionColor=true
+Color=112,111,110
+ColorAmount=0.025
+ColorEffect=2
+ContrastAmount=0.1
+ContrastEffect=2
+Enable=false
+IntensityAmount=0
+IntensityEffect=0
+
+[Colors:Button]
+BackgroundAlternate=29,175,179
+BackgroundNormal=41,44,48
+DecorationFocus=24,232,236
+DecorationHover=24,232,236
+ForegroundActive=24,232,236
+ForegroundInactive=161,169,177
+ForegroundLink=24,232,236
+ForegroundNegative=218,68,83
+ForegroundNeutral=246,116,0
+ForegroundNormal=252,252,252
+ForegroundPositive=39,174,96
+ForegroundVisited=155,89,182
+
+[Colors:Complementary]
+BackgroundAlternate=30,87,116
+BackgroundNormal=32,35,38
+DecorationFocus=24,232,236
+DecorationHover=24,232,236
+ForegroundActive=24,232,236
+ForegroundInactive=161,169,177
+ForegroundLink=24,232,236
+ForegroundNegative=218,68,83
+ForegroundNeutral=246,116,0
+ForegroundNormal=252,252,252
+ForegroundPositive=39,174,96
+ForegroundVisited=155,89,182
+
+[Colors:Header]
+BackgroundAlternate=32,35,38
+BackgroundNormal=41,44,48
+DecorationFocus=24,232,236
+DecorationHover=24,232,236
+ForegroundActive=24,232,236
+ForegroundInactive=161,169,177
+ForegroundLink=24,232,236
+ForegroundNegative=218,68,83
+ForegroundNeutral=246,116,0
+ForegroundNormal=252,252,252
+ForegroundPositive=39,174,96
+ForegroundVisited=155,89,182
+
+[Colors:Header][Inactive]
+BackgroundAlternate=41,44,48
+BackgroundNormal=32,35,38
+DecorationFocus=61,174,233
+DecorationHover=61,174,233
+ForegroundActive=61,174,233
+ForegroundInactive=161,169,177
+ForegroundLink=29,153,243
+ForegroundNegative=218,68,83
+ForegroundNeutral=246,116,0
+ForegroundNormal=252,252,252
+ForegroundPositive=39,174,96
+ForegroundVisited=155,89,182
+
+[Colors:Selection]
+BackgroundAlternate=22,169,172
+BackgroundNormal=22,169,172
+DecorationFocus=24,232,236
+DecorationHover=24,232,236
+ForegroundActive=24,232,236
+ForegroundInactive=0,0,0
+ForegroundLink=138,252,255
+ForegroundNegative=176,55,69
+ForegroundNeutral=198,92,0
+ForegroundNormal=0,0,0
+ForegroundPositive=23,104,57
+ForegroundVisited=155,89,182
+
+[Colors:Tooltip]
+BackgroundAlternate=32,35,38
+BackgroundNormal=41,44,48
+DecorationFocus=24,232,236
+DecorationHover=24,232,236
+ForegroundActive=24,232,236
+ForegroundInactive=161,169,177
+ForegroundLink=24,232,236
+ForegroundNegative=218,68,83
+ForegroundNeutral=246,116,0
+ForegroundNormal=252,252,252
+ForegroundPositive=39,174,96
+ForegroundVisited=155,89,182
+
+[Colors:View]
+BackgroundAlternate=29,31,34
+BackgroundNormal=20,22,24
+DecorationFocus=24,232,236
+DecorationHover=24,232,236
+ForegroundActive=24,232,236
+ForegroundInactive=161,169,177
+ForegroundLink=24,232,236
+ForegroundNegative=218,68,83
+ForegroundNeutral=246,116,0
+ForegroundNormal=252,252,252
+ForegroundPositive=39,174,96
+ForegroundVisited=155,89,182
+
+[Colors:Window]
+BackgroundAlternate=41,44,48
+BackgroundNormal=32,35,38
+DecorationFocus=24,232,236
+DecorationHover=24,232,236
+ForegroundActive=24,232,236
+ForegroundInactive=161,169,177
+ForegroundLink=24,232,236
+ForegroundNegative=218,68,83
+ForegroundNeutral=246,116,0
+ForegroundNormal=252,252,252
+ForegroundPositive=39,174,96
+ForegroundVisited=155,89,182
+
+[DirSelect Dialog]
+DirSelectDialog Size=960,540
+History Items[$e]=file:///opt/xdman/chrome-extension,file:///opt/xdman,file:///run/media/Angel/SSD-crucial/browsing/chrome-extensions/uBlock0.chromium,file:///run/media/Angel/SSD-crucial/browsing/chrome-extensions,file:///run/media/Angel/SSD-crucial/browsing/chrome-extensions/ISDCAC-chrome-source,file:///run/media/Angel/SSD-crucial/browsing/chrome-extensions/adguard-chrome-mv3,file:///run/media/Angel/SSD-crucial/browsing/chrome-extensions/noscript-13.0.8.903-chrome,file:///run/media/Angel/SSD-crucial/browsing/chrome-extensions/privacybadger-release-2025.5.30/src,file:///run/media/Angel/SSD-crucial/browsing/chrome-extensions/privacybadger-release-2025.5.30,file:///run/media/Angel/SSD-crucial/browsing/chrome-extensions/keepassxc-browser_1.9.9.2_chromium,file:///run/media/Angel/SSD-crucial/browsing/chrome-extensions/UserAgent-Switcher/v3,file:///run/media/Angel/SSD-crucial/browsing/chrome-extensions/UserAgent-Switcher,file:///run/media/Angel/SSD-crucial/browsing/chrome-extensions/keepassxc-browser_1.9.9.1_chromium,file:///run/media/Angel/SSD-crucial/browsing/chrome-extensions/cloaq/node/src,file:///run/media/Angel/SSD-crucial/browsing/chrome-extensions/cloaq/runtime/src,file:///run/media/Angel/SSD-crucial/browsing/chrome-extensions/cloaq,file:///run/media/Angel/SSD-crucial/VMs/VBox,file:///run/media/Angel/SSD-walram/SteamLibrary,file:$HOME/windows_program,file:$HOME/chrome-extensions/uBlock0.chromium
+Splitter State=\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\x8c\x00\x00\x02\xa8\x00\xff\xff\xff\xff\x01\x00\x00\x00\x01\x00
+
+[General]
+AccentColor=24,232,236
+BrowserApplication=vivaldi-stable.desktop
+ColorSchemeHash=2c3f86428c11011a7c64ee1e7f47c274d498ff10
+LastUsedCustomAccentColor=24,232,236
+UseSystemBell=true
+
+[Icons]
+Theme=Surfn-Tela
+
+[KDE]
+LookAndFeelPackage=XRAY-DARK.desktop
+ShowDeleteCommand=true
+
+[KFileDialog Settings]
+Allow Expansion=false
+Automatically select filename extension=true
+Breadcrumb Navigation=true
+Decoration position=0
+LocationCombo Completionmode=5
+PathCombo Completionmode=5
+Show Full Path=false
+Show Inline Previews=true
+Show Preview=false
+Show Speedbar=true
+Show hidden files=false
+Sort by=Name
+Sort directories first=true
+Sort hidden files last=false
+Sort reversed=false
+Speedbar Width=140
+View Style=Simple
+
+[PreviewSettings]
+EnableRemoteFolderThumbnail=false
+MaximumRemoteSize=0
+
+[WM]
+activeBackground=39,44,49
+activeBlend=252,252,252
+activeForeground=252,252,252
+inactiveBackground=32,36,40
+inactiveBlend=161,169,177
+inactiveForeground=161,169,177
