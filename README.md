@@ -1,13 +1,16 @@
 # Viper(Xray_OS)
 
-<img src="https://images2.imgbox.com/12/9e/wqMmWy0F_o.png" alt="Alt text" width="300"/>
-Xray The bear
-<img src="https://images2.imgbox.com/57/90/Nd0Dcm79_o.png" alt="Alt text" width="300"/>
-Viper logo
+<div style="display: flex; justify-content: center; gap: 20px;">
+  <div>
+    <img src="https://images2.imgbox.com/12/9e/wqMmWy0F_o.png" alt="Xray The bear" width="300"/>
+    <p style="text-align:center;">Xray The bear</p>
+  </div>
+  <div>
+    <img src="https://images2.imgbox.com/57/90/Nd0Dcm79_o.png" alt="Viper logo" width="300"/>
+    <p style="text-align:center;">Viper logo</p>
+  </div>
+</div>
 
-![Xray_OS Logo](https://img.shields.io/badge/Kernel:-Linux-blue?style=for-the-badge)
-![Version](https://img.shields.io/badge/Version:-18-green?style=for-the-badge)
-![Arch Based](https://img.shields.io/badge/Based%20on:-Arch%20-1793d1?style=for-the-badge)
 
 ## Overview
 Viper (Xray_OS) is a personal Arch Linux-based distribution created for my personal use - it's not intended as a competitor to other distributions. This is a curated system with custom tools and fixes for several use cases.
