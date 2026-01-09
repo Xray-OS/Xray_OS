@@ -1,15 +1,8 @@
 # Viper(Xray_OS)
 
-<div style="display: flex; justify-content: center; gap: 20px;">
-  <div>
-    <img src="https://images2.imgbox.com/12/9e/wqMmWy0F_o.png" alt="Xray The bear" width="300"/>
-    <p style="text-align:center;">Xray The bear</p>
-  </div>
-  <div>
-    <img src="https://images2.imgbox.com/57/90/Nd0Dcm79_o.png" alt="Viper logo" width="300"/>
-    <p style="text-align:center;">Viper logo</p>
-  </div>
-</div>
+| Xray The bear | Viper logo |
+|---------------|------------|
+| <img src="https://images2.imgbox.com/12/9e/wqMmWy0F_o.png" width="300"/> | <img src="https://images2.imgbox.com/57/90/Nd0Dcm79_o.png" width="300"/> |
 
 
 ## Overview
