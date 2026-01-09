@@ -1,0 +1,13 @@
+NAME="Viper"
+PRETTY_NAME="Viper"
+ID=viper
+BUILD_ID=rolling
+ANSI_COLOR="38;2;23;147;209"
+HOME_URL="https://github.com/cppdark96/Viper/"
+DOCUMENTATION_URL="https://github.com/cppdark96/Viper/"
+SUPPORT_URL="https://github.com/cppdark96/Viper/"
+BUG_REPORT_URL="https://github.com/cppdark96/Viper/"
+PRIVACY_POLICY_URL="https://github.com/cppdark96/Viper/"
+LOGO=viper-logo
+IMAGE_ID=viper
+IMAGE_VERSION=v1

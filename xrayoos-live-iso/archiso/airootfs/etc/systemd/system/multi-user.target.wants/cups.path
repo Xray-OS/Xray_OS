@@ -1,9 +1,0 @@
-[Unit]
-Description=CUPS Scheduler
-PartOf=cups.service
-
-[Path]
-PathExists=/var/cache/cups/org.cups.cupsd
-
-[Install]
-WantedBy=multi-user.target

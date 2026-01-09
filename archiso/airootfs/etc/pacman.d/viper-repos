@@ -1,0 +1,1 @@
+Server = https://gitlab.com/viper-arch/repos/$repo/-/raw/main/$arch

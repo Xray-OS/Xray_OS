@@ -1,0 +1,15 @@
+[Added Associations]
+audio/mpeg=audacious.desktop;
+image/x-xcf=gimp.desktop;
+x-scheme-handler/freetube=FreeTube.desktop;
+x-scheme-handler/http=vivaldi-stable.desktop;firefox.desktop;
+x-scheme-handler/https=vivaldi-stable.desktop;firefox.desktop;
+text/html=vivaldi-stable.desktop
+
+[Default Applications]
+audio/mpeg=audacious.desktop;
+image/x-xcf=gimp.desktop;
+text/html=vivaldi-stable.desktop
+x-scheme-handler/freetube=FreeTube.desktop
+x-scheme-handler/http=vivaldi-stable.desktop
+x-scheme-handler/https=vivaldi-stable.desktop
