@@ -27,7 +27,7 @@ Viper (Xray_OS) is a personal Arch Linux-based distribution created for my perso
 - Viper custom installer (Currently been fixed, it'll be back)
 - Custom partitioning option
 - Swap is optional
-- Works on VMs
+- Works on VBox (KVM in the future)
 - Made with the QT framework
 - Beautiful and elegant UI
 - Minimal
