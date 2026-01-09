@@ -4,7 +4,7 @@
 Xray The bear
 
 ![Xray_OS Logo](https://img.shields.io/badge/Kernel:-Linux-blue?style=for-the-badge)
-![Version](https://img.shields.io/badge/Version:-15-green?style=for-the-badge)
+![Version](https://img.shields.io/badge/Version:-18-green?style=for-the-badge)
 ![Arch Based](https://img.shields.io/badge/Based%20on:-Arch%20-1793d1?style=for-the-badge)
 
 ## Overview
