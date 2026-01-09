@@ -105,7 +105,7 @@ Viper is semi open-source but is not LIBRE. Individual components may have their
 
 ## Contributing
 
-We welcome contributions!, some people think this project it's useless because of it's humble origins, if you ever let aside the discrimination and you think this is a great system please contribute to it
+We welcome contributions!, some people think this project it's useless because of is humble origins, if you ever let aside the discrimination and you think this is a great system please contribute to it
 
 ---
 
