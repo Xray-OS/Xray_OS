@@ -2,6 +2,8 @@
 
 <img src="https://images2.imgbox.com/12/9e/wqMmWy0F_o.png" alt="Alt text" width="300"/>
 Xray The bear
+<img src="https://images2.imgbox.com/57/90/Nd0Dcm79_o.png" alt="Alt text" width="300"/>
+Viper logo
 
 ![Xray_OS Logo](https://img.shields.io/badge/Kernel:-Linux-blue?style=for-the-badge)
 ![Version](https://img.shields.io/badge/Version:-18-green?style=for-the-badge)
