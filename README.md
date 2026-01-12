@@ -85,7 +85,7 @@ Normally, downloading DaVinci Resolve from the AUR gives installation errors. Wi
 
 ### Personal Touch
 - Created as a personal ISO for specific needs
-- Not intended to compete with major distributions unless people take interest in the project and stop discriminating it because it's a Venezuelan project
+- Not intended to compete with major distributions unless people take interest in the project
 - Focuses on innovation, creation, usability and solving real-world package installation issues
 - Includes original custom wallpapers
 - Custom tools to manage the system
