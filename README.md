@@ -8,7 +8,7 @@
 ## Overview
 Xray_OS is a personal Arch Linux-based distribution created for my personal use - it's not intended as a competitor to other distributions. This is a curated system with custom tools and fixes for several use cases.
 
-👉 Website: [Visit Viper's page](https://xray-os.github.io/xray_os-website/)
+👉 Website: [Visit Xray_OS's page](https://xray-os.github.io/xray_os-website/)
 
 ## Key Features
 
