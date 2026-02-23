@@ -1,4 +1,4 @@
-# Viper(Xray_OS)
+# Xray_OS
 
 | Xray The bear | Viper logo |
 |---------------|------------|
@@ -6,7 +6,7 @@
 
 
 ## Overview
-Viper (Xray_OS) is a personal Arch Linux-based distribution created for my personal use - it's not intended as a competitor to other distributions. This is a curated system with custom tools and fixes for several use cases.
+Xray_OS is a personal Arch Linux-based distribution created for my personal use - it's not intended as a competitor to other distributions. This is a curated system with custom tools and fixes for several use cases.
 
 👉 Website: [Visit Viper's page](https://xray-os.github.io/xray_os-website/)
 
@@ -14,15 +14,15 @@ Viper (Xray_OS) is a personal Arch Linux-based distribution created for my perso
 
 - **🛠️ Custom AUR Helper** - Tolito-AUR-helper gets primarily curated in-house PKGBUILDs, AUR and custom configured repositories as fallback
 - **📦 Curated Packages** - Fixed and improved PKGBUILDs for some broken AUR packages
-- **🎨 Custom Wallpapers** - Original Viper wallpapers (not sourced from elsewhere)
+- **🎨 Custom Wallpapers** - Original Xray_OS wallpapers (not sourced from elsewhere)
 - **🖥️ Smart GPU Detection** - Automatically detects and removes unused GPU drivers during installation
 - **🎬 DaVinci Resolve Support** - Easy installation via Tolito-AUR-helper
 - **📋 Tolitica Welcome App** - Custom welcome application with useful system options
 
 ## Unique Features
 
-### Arch7z-Installer/Viper-Installer
-- Viper custom installer (Currently been fixed, it'll be back)
+### Arch7z-Installer/Xray-Installer
+- Xray_OS custom installer (Currently been fixed, it'll be back)
 - Custom partitioning option
 - Swap is optional
 - Works on VBox (KVM in the future)
@@ -33,7 +33,7 @@ Viper (Xray_OS) is a personal Arch Linux-based distribution created for my perso
 - UEFI/GPT only
 
 ### Tolito-AUR-helper
-- Custom AUR helper that builds and downloads packages on the fly primarily from Viper's curated repo, but also from AUR and optionals added repos, ChaoiticAUR added as an extra repo already
+- Custom AUR helper that builds and downloads packages on the fly primarily from Xray_OS's curated repo, but also from AUR and optionals added repos, ChaoiticAUR added as an extra repo already
 - Fixes some broken AUR packages (like DaVinci Resolve installation errors) ---> (Notify if it's still working please..)
 - Automatically falls back to standard AUR or even optional added repos like ChaoticAUR repos (added by default) if a package is not available
 
@@ -77,7 +77,7 @@ Viper (Xray_OS) is a personal Arch Linux-based distribution created for my perso
 ## What Makes This Different
 
 ### DaVinci Resolve Made Easy
-Normally, downloading DaVinci Resolve from the AUR gives installation errors. With Viper's Tolito-AUR-helper, you can:
+Normally, downloading DaVinci Resolve from the AUR gives installation errors. With Xray_OS's Tolito-AUR-helper, you can:
 - Download and install DaVinci Resolve easily
 - Get it installed on the fly without errors
 - Access curated PKGBUILDs that fix some broken AUR packages
@@ -99,7 +99,7 @@ Normally, downloading DaVinci Resolve from the AUR gives installation errors. Wi
 
 ## License
 
-Viper is semi open-source but is not LIBRE. Individual components may have their own licenses.
+Xray_OS is semi open-source but is not LIBRE. Individual components may have their own licenses.
 
 ## Contributing
 
