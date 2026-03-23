@@ -118,56 +118,57 @@ xfsprogs
 xl2tpd
 zsh
 
-#########################################################################
-#                  VP SETTINGS
-#########################################################################
-viper-installation-config
-viper-settings
-viper-kde-settings
+#####################################
+#       XRAY SETTINGS
+####################################
+xray-installation-config
+xray-settings
 
 #=======================#
-# - VIPER Shell
+# Xray-Shell
 #=======================#
-viper-fish-config
-viper-fish-settings
-viper-alacritty-config
-viper-ghostty-config
+xray-fish-config
+xray-fish-settings
+xray-alacritty-config
+xray-ghostty-config
 
 #=======================#
-# - VIPER-utilities
+# Xray-Utilities
 #=======================#
 tolitica
 tolito
 
 #=======================#
-# - VIPER-WALLPAPERS
+# - Xay-wallpapers
 #=======================#
-viper-wallpapers
+xray-wallpapers
 
 #=======================#
-# - VIPER Installation
+# - Xray-Installation
 #=======================#
-#viper-installer
+#xray-installer
 calamares
-viper-calamares-config
+xray-calamares-config
 
 #=======================#
-# - VIPER Fonts
+# - Xray-Fonts
 #=======================#
 xray-nerd-fonts
 
-#######################################################
-###      PACKAGES THAT STAY AFTER INSTALLATION      ###
-#######################################################
+##############################################
+#       PACKAGES THAT STAY AFTER INSTALLATION
+##############################################
 os-prober
 make
 libadwaita
 ntp
 
-#########################################################################
-#                  Desktop Enviroment
-#########################################################################
+#####################################
+#       DESKTOP ENVIRONMENT: PLASMA
+####################################
 plasma
+xray-kde-settings
+
 #=======================#
 # - File Manager
 #=======================#
@@ -193,19 +194,64 @@ kolourpaint
 filelight
 kwalletmanager
 
+#########################################
+#       DESKTOP ENVIRONMENT: XFCE START
+#########################################
+xray-xfce-settings
+xfce4
+xfce4-goodies
+
+#####################################
+#       XFCE-UTILITIES
+####################################
+gvfs
+gvfs-afc
+gvfs-gphoto2
+gvfs-mtp
+gvfs-nfs
+gvfs-smb
+gvfs-dnssd
+flameshot
+archlinux-tweak-tool-git
+variety
+vlc
+xcape
+arandr
+catfish
+evince
+file-roller
+gnome-disk-utility
+gnome-keyring
+gnome-screenshot
+nomacs
+playerctl
+polkit-gnome
+qt5ct
+gittyup
+hardcode-fixer-git
+mugshot
+autorandr
+volumeicon
+
+#########################################
+#       DESKTOP ENVIRONMENT: XFCE END
+#########################################
+
 #=======================#
 # - Terminals
 #=======================#
 konsole
+alacritty
 
 #=======================#
 # - Login Manager
 #=======================#
 sddm
+xray-sddm-simplicity-git
 
-#########################################################################
-#                  SYSTEM PACKAGES
-#########################################################################
+#####################################
+#       SYSTEM PACKAGES
+####################################
 
 #=======================#
 # - Audio
@@ -278,7 +324,8 @@ rustup
 wget
 curl
 yad
-viper-development-meta
+sublime-text-4
+xray-development-meta
 
 #=======================#
 # - Office
@@ -296,7 +343,7 @@ linux-headers
 #=======================#
 fish
 oh-my-posh-bin
-fastfetch-viper
+fastfetch
 bash
 bash-completion
 zsh-completions
@@ -341,22 +388,22 @@ network-manager-applet
 #=======================#
 # - GPU GENRL DRIVERS
 #=======================#
-libglvnd
-lib32-libglvnd
-dkms
-mesa
-mesa-utils
+#libglvnd
+#lib32-libglvnd
+#dkms
+#mesa
+#mesa-utils
 
 #=======================#
 # - Nvidia Drivers
 #=======================#
-nvidia-open-dkms
-nvidia-settings
-nvidia-prime
-lib32-nvidia-utils
-nvidia-utils
-lib32-opencl-nvidia
-opencl-nvidia
+#nvidia-open-dkms
+#nvidia-settings
+#nvidia-prime
+#lib32-nvidia-utils
+#nvidia-utils
+#lib32-opencl-nvidia
+#opencl-nvidia
 
 #=======================#
 # - X11
@@ -371,12 +418,18 @@ xf86-input-evdev
 xf86-input-libinput
 xf86-input-synaptics
 xf86-input-vmmouse
-xf86-input-void
+xf86-input-wacom
 xf86-video-amdgpu
 xf86-video-fbdev
-xf86-video-nouveau
-xf86-video-qxl
 xf86-video-vmware
+
+#xlibre-video-qxl
+#xlibre-video-nouveau
+#xlibre-input-void
+#xlibre-xserver-src
+#xlibre-xserver-xephyr
+#xlibre-xserver-xnest
+#xlibre-xserver-xvfb
 
 #=======================#
 # - Wayland
@@ -398,7 +451,13 @@ system-config-printer
 #=======================#
 # - Tumbler
 #=======================#
+tumbler
 ffmpegthumbnailer
+freetype2
+libgsf
+libopenraw
+poppler-glib
+poppler-qt5
 
 #=======================#
 # - Tools
@@ -415,7 +474,7 @@ strawberry
 # - OBS-Studio-pkgs
 #=======================#
 obs-gstreamer
-gstreamer-vaapi
+#gstreamer-vaapi
 
 #=======================#
 # - Unreal Engine
@@ -428,6 +487,7 @@ clang
 #=======================#
 chaotic-mirrorlist
 chaotic-keyring
+xray-keyring
 
 #=======================#
 # - Utilities
@@ -435,6 +495,14 @@ chaotic-keyring
 power-profiles-daemon
 switcheroo-control
 gparted
+unace
+unrar
+unzip
+mintstick
+font-manager
+archlinux-tools
+simple-scan
+plymouth
 
 #=======================#
 # - Other
@@ -448,15 +516,16 @@ xfsprogs
 xdg-user-dirs-gtk
 xdg-utils
 ananicy-cpp
+cachyos-ananicy-rules-git
 
-#########################################################################
-#                  GAMING
-#########################################################################
+#####################################
+#       GAMING
+####################################
 
 #=======================#
-# - viper-gaming-meta
+# - xray-gaming-meta
 #=======================#
-viper-gaming-meta
+#xray-gaming-meta
 
 #=======================#
 # - Wine & Dependencies
@@ -511,23 +580,29 @@ viper-gaming-meta
 #lutris
 #bottles
 
-#########################################################################
-#                  VIPER THEMING STUFF
-#########################################################################
+#####################################
+#       XRAY THEMING STUFF
+####################################
+
+#=======================#
+# - OTHER-STUFF
+#=======================#
+xray-ui-elements
+
 #=======================#
 # - DE themes
 #=======================#
-tolitica-plasma-theme
+#tolitica-plasma-theme
 xray-kde-dark
-arch-kde-theme
-dtos-kde-theme
-viper-kde-theme
+#arch-kde-theme
+#dtos-kde-theme
+#viper-kde-theme
 
 #=======================#
 # - BOOT SPLASH SCREENS
 #=======================#
 xray-liquid-boot-splash
-viper-plymouth-bootanimation
+viper-plymouth-animation
 #viper-liquid-boot-splash
 
 #=======================#
@@ -535,6 +610,9 @@ viper-plymouth-bootanimation
 #=======================#
 dracula-icons-git
 surfn-icons-git
+numix-icon-theme-git
+numix-circle-icon-theme-git
+sardi-icons
 
 #=======================#
 # - Cursor-Icons
@@ -544,8 +622,8 @@ capitaine-cursors
 vimix-cursors
 
 #=======================#
-# - VIPER Grub-Themes
+# - XRAY-Grub-Themes
 #=======================#
 viper-grub-theme
 xray-grub-theme
-arch7z-grub-theme
+#arch7z-grub-theme

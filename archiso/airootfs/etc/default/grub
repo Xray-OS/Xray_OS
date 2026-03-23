@@ -2,7 +2,7 @@
 
 GRUB_DEFAULT=0
 GRUB_TIMEOUT=7
-GRUB_DISTRIBUTOR="Viper"
+GRUB_DISTRIBUTOR="Xray_OS"
 GRUB_CMDLINE_LINUX_DEFAULT="quiet loglevel=3 audit=0 nvme_load=yes"
 GRUB_CMDLINE_LINUX=""
 
@@ -44,7 +44,7 @@ GRUB_DISABLE_RECOVERY=true
 
 # Uncomment one of them for the gfx desired, a image background or a gfxtheme
 #GRUB_BACKGROUND="/path/to/wallpaper"
-GRUB_THEME="/boot/grub/themes/viper/theme.txt"
+GRUB_THEME="/boot/grub/themes/xray_os/theme.txt"
 
 # Uncomment to get a beep at GRUB start
 #GRUB_INIT_TUNE="480 440 1"
