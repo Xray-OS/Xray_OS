@@ -8,16 +8,16 @@
 ## Overview
 Xray_OS is a personal Arch Linux-based distribution created for my personal use - it's not intended as a competitor to other distributions. This is a curated system with custom tools and fixes for several use cases.
 
-👉 Website: [Visit Xray_OS's page](https://xray-os.github.io/xray_os-website/)
+**Website:** [Visit Xray_OS's page](https://xray-os.github.io/xray_os-website/)
 
 ## Key Features
 
-- **🛠️ Custom AUR Helper** - Tolito-AUR-helper gets primarily curated in-house PKGBUILDs, AUR and custom configured repositories as fallback
-- **📦 Curated Packages** - Fixed and improved PKGBUILDs for some broken AUR packages
-- **🎨 Custom Wallpapers** - Original Xray_OS wallpapers (not sourced from elsewhere)
-- **🖥️ Smart GPU Detection** - Automatically detects and removes unused GPU drivers during installation
-- **🎬 DaVinci Resolve Support** - Easy installation via Tolito-AUR-helper
-- **📋 Tolitica Welcome App** - Custom welcome application with useful system options
+- **Custom AUR Helper** - Tolito-AUR-helper gets primarily curated in-house PKGBUILDs, AUR and custom configured repositories as fallback
+- **Curated Packages** - Fixed and improved PKGBUILDs for some broken AUR packages
+- **Custom Wallpapers** - Original Xray_OS wallpapers (not sourced from elsewhere)
+- **Smart GPU Detection** - Automatically detects and removes unused GPU drivers during installation
+- **DaVinci Resolve Support** - Easy installation via Tolito-AUR-helper
+- **Tolitica Welcome App** - Custom welcome application with useful system options
 
 ## Unique Features
 
@@ -48,7 +48,7 @@ Xray_OS is a personal Arch Linux-based distribution created for my personal use 
 ### Smart Installation Features
 - **GPU Driver Detection**: Automatically detects your GPU and removes unused drivers
 - **DaVinci Resolve Fix**: Resolves missing title bar issues in DaVinci Resolve on KDE Plasma
-- **Custom Wallpapers**: Includes original Viper wallpapers
+- **Custom Wallpapers**: Includes original Xray_OS wallpapers
 
 ### Important Notes
 - This is a **personal ISO** created for personal use
@@ -107,4 +107,4 @@ We welcome contributions!, some people think this project it's useless because o
 
 ---
 
-*Viper - It’s not a Linux fork. It’s the Linux you never expected*
+*Xray_OS - It’s not a Linux fork. It’s the Linux you never expected*
